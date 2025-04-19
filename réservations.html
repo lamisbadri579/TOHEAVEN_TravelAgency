@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="figures/icon.svg" type="image/svg+xml">
+    
+    <title>Réservations</title>
+    <style>
+        
+      img{
+        width: 500px;
+        height: 300px;
+      }
+       
+       
+       
+    </style>
+</head>
+<body  id="haut">
+    
+    <header id="header">
+        <div style="display: flex; align-items: center;">
+            <img src="figures/logo.svg" alt="" style="width: 40px;">
+        <h2 id="Heaven"><a href="index.html">TO HEAVEN</a></h2>
+        </div>
+
+        <nav >
+
+            <ul>
+    
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="destinations.html" >Destinations</a></li>
+                <li><a href="services.html" >Services</a></li>
+                <li><a href="réservations.html" >Réservations</a></li>
+                <li><a href="promotions.html" >Promotions</a></li>
+                <li><a href="apropos.html" >A propos</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    
+        <div id="hamburger-icon" onclick="toggleMobileMenu(this)">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+            <ul class="mobile-menu">
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="destinations.html" >Destinations</a></li>
+                <li><a href="services.html" >Services</a></li>
+                <li><a href="réservations.html" >Réservations</a></li>
+                <li><a href="promotions.html" >Promotions</a></li>
+                <li><a href="apropos.html" >A propos</a></li>
+                <li><a href="contact.html">Contact</a></li>
+              
+            </ul>
+          </div>
+    </header>
+      <div class="display">
+        
+        </div>
+      <header>
+        
+        <h1>Réservez votre prochain voyage dès aujourd'hui</h1>
+        
+    </header>
+    
+    <section>
+        <div>
+        <h2>Île Maurice</h2>
+        
+        <p>L'Île Maurice est une destination de rêve pour des vacances inoubliables.</p>
+        <p><b>Hotêl:</b>   LUX* Belle Mare Resort & Villas</p>
+        
+       <section>
+
+        <img  src="figures/maurice.jpg" alt="">
+
+        <div>
+        <p>Prix par nuit pour une personne : 100€</p>
+        <p>Prix par nuit pour deux personnes : 180€</p>
+        <p>All Inclusive (par nuit, par personne) : 150€</p>
+        <p>pension complète (par nuit, par personne) : 135€</p>
+        <p>Demi-pension (par nuit, par personne) : 120€</p>
+        </div>
+
+       </section>
+
+        <section class="search-bar" id="prix">
+            <p>Promotion : Réduction de <b>10%</b> pour les séjours de plus de 3 nuits.</p>
+        <table>
+        <tr>
+        <td><label for="nights_maurice">nuits:</label></td>
+        <td><input type="number" id="nights_maurice" value="1" min="1"></td>
+        </tr>
+        <tr>
+        <td><label for="persons_maurice">personnes:</label></td>
+        <td><input type="number" id="persons_maurice" value="1" min="1"></td>
+        </tr>
+        <tr><td colspan="2" style="text-align: center;"><button type="submit" class="search-button">Réserver</button></td></tr>
+        </table>
+        </section>
+        </div>
+    
+        <div>
+        <h2>Bali, Indonésie</h2>
+        
+        <p>Bali est réputée pour ses plages spectaculaires et sa culture vibrante.</p>
+        <p><b>Hotêl:</b>   The Mulia Bali</p>
+        
+         <section>
+            <img src="figures/bali.jpg" alt="">
+        <div>
+        <p>Prix par nuit pour une personne : 120€</p>
+        <p>Prix par nuit pour deux personnes : 200€</p>
+        <p>All Inclusive (par nuit, par personne) : 180€</p>
+        <p>pension complète (par nuit, par personne) : 170€</p>
+        <p>Demi-pension (par nuit, par personne) : 150€</p>
+        </div>
+         </section>
+
+        <section class="search-bar" id="prix">
+            <p>Promotion : Réduction de <b>15%</b> pour les séjours de plus de 3 nuits.</p>
+        
+        <table>
+        <tr>
+            <td><label for="nights_bali">nuits:</label></td>
+            <td><input type="number" id="nights_bali" value="1" min="1"></td>
+        </tr>
+
+        <tr>
+            <td><label for="persons_bali">personnes:</label></td>
+            <td><input type="number" id="persons_bali" value="1" min="1">  </td>
+        </tr>  
+        <tr><td colspan="2" style="text-align: center;"><button type="submit">Réservez</button></td></tr>
+        </table>
+        </section>
+    </div>
+    </section>
+
+    <section>
+        <div >
+        <h2>Paris, France</h2>
+        
+        <p>Paris est la capitale de la France, réputée pour ses monuments emblématiques, sa cuisine raffinée et sa culture artistique.</p>
+        <p><b>Hotêl:</b>   Le Meurice</p>
+
+       <section>
+        <img src="figures/maurice.jpg" alt="">
+        
+        <div>
+        <p>Prix par nuit pour une personne : 120€</p>
+        <p>Prix par nuit pour deux personnes : 200€</p>
+        <p>All Inclusive (par nuit, par personne) : 180€</p>
+        <p>pension complète (par nuit, par personne) : 165€</p>
+        <p>Demi-pension (par nuit, par personne) : 150€</p>
+        </div>
+       </section>
+
+       <section  class="search-bar" id="prix">
+        <p>Promotion : Réduction de <b>15%</b> pour les séjours de plus de 3 nuits.</p>
+        <table>
+        <tr>
+            <td><label for="nights_paris">nuits:</label></td>
+            <td><input type="number" id="nights_paris" value="1" min="1"><br></td>
+
+        </tr>
+        
+        <tr>
+            <td><label for="persons_paris">personnes:</label></td>
+            <td><input type="number" id="persons_paris" value="1" min="1"></td>    
+        </tr>
+        <tr><td colspan="2" style="text-align: center;"><button type="submit">Réserver</button></td></tr>
+        </table>
+       </section>
+    </div>
+    
+        <div>
+        <h2>Thaïlande</h2>
+        
+        <p>La Thaïlande offre une variété d'expériences, de la détente sur la plage à l'aventure dans la jungle.</p>
+        <p><b>Hotêl:</b>   Rayavadee Krabi</p>
+        
+        <section>
+            <img src="figures/thailand.jpg" alt="">
+        <div>
+        <p>Prix par nuit pour une personne : 90€</p>
+        <p>Prix par nuit pour deux personnes : 160€</p>
+        <p>All Inclusive (par nuit, par personne) : 130€</p>
+        <p>pension complète (par nuit, par personne) : 120€</p>
+        <p>Demi-pension (par nuit, par personne) : 100€</p>
+        </div>
+        </section>
+
+        <section  class="search-bar" id="prix">
+            <p>Promotion : Réduction de <b>10%</b> pour les séjours de plus de 3 nuits.</p>
+        <table>
+        <tr>
+            <td><label for="nights_thailande">nuits:</label></td>
+            <td><input type="number" id="nights_thailande" value="1" min="1"><br></td>
+        </tr>
+
+        <tr>
+            <td><label for="persons_thailand">personnes:</label></td>
+            <td><input type="number" id="persons_thailand" value="1" min="1"> </td>
+        </tr>  
+        <tr><td colspan="2" style="text-align: center;"><button type="submit">Réserver</button></td></tr> 
+        </table>
+        </section>
+    </div>
+    </section>
+
+    <section>
+        <div>
+        <h2>Santorin, Grèce</h2>
+        
+        <p>Santorin est une île grecque romantique réputée pour ses vues à couper le souffle et ses couchers de soleil spectaculaires.</p>
+        <p><b>Hotêl:</b>   Canaves Oia Suites & Spa</p>
+        
+        <section>
+        <img src="figures/grece.jpg" alt="">
+        <div>
+        <p>Prix par nuit pour une personne : 150€</p>
+        <p>Prix par nuit pour deux personnes : 250€</p>
+        <p>All Inclusive (par nuit, par personne) : 220€</p>
+        <p>pension complète (par nuit, par personne) : 200€</p>
+        <p>Demi-pension (par nuit, par personne) : 180€</p>
+        </div>
+        </section>
+
+        <section  class="search-bar" id="prix">
+            <p>Promotion : Réduction de <b>20%</b> pour les séjours de plus de 3 nuits.</p>
+        <table>
+        <tr>
+            <td><label for="nights_santorin">nuits</label></td>
+            <td><input type="number" id="nights_santorin" value="1" min="1">
+            </td>
+        </tr>
+        
+        <tr>
+            <td><label for="persons_grece">personnes:</label></td>
+            <td><input type="number" id="persons_grece" value="1" min="1"></td>
+        </tr>
+        <tr><td colspan="2" style="text-align: center;"><button type="submit">Réserver</button></td></tr>
+        </table>
+        </section>
+    </div>
+    
+        <div>
+        <h2>La Nouvelle-Orléans, États-Unis</h2>
+        
+        <p>La Nouvelle-Orléans est une ville animée et culturelle, célèbre pour sa musique et sa cuisine.</p>
+        <p><b>Hotêl:</b>   The Roosevelt New Orleans</p>
+        
+        <section>
+            <img src="figures/usa.webp" alt="">
+        <div>
+        <p>Prix par nuit pour une personne : 80€</p>
+        <p>Prix par nuit pour deux personnes : 150€</p>
+        <p>All Inclusive (par nuit, par personne) : 120€</p>
+        <p>pension complète (par nuit, par personne) : 110€</p>
+        <p>Demi-pension (par nuit, par personne) : 100€</p>
+        </div>
+        </section>
+
+       <section  class="search-bar" id="prix">
+        <p>Promotion : Réduction de <b>10%</b> pour les séjours de plus de 3 nuits.</p>
+        <table>
+         <tr>
+             <td><label for="nights_nouvelle-orleans">nuits:</label></td>
+             <td><input type="number" id="nights_nouvelle-orleans" value="1" min="1"></td>
+         </tr>
+ 
+         <tr>
+             <td><label for="persons_usa">personnes:</label></td>
+             <td><input type="number" id="persons_usa" value="1" min="1"></td>   
+         </tr> 
+         <tr><td colspan="2" style="text-align: center;"><button type="submit">Réserver</button></td></tr>
+        </table>
+       </section>
+    </div>
+    </section>
+   
+    <footer>
+        <p>Pour découvrir des offres à prix réduit, nous vous invitons à visiter <a href="promotions.html">Promotions</a>
+             où vous trouverez une sélection d'articles à des tarifs avantageux.</p>
+    </footer>
+    <script src="index.js"></script>
+</body>
+</html>

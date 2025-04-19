@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="figures/icon.svg" type="image/svg+xml">
+    
+    <title>Promotions</title>
+
+</head>
+<body id="haut">
+    
+    <header id="header">
+        <div style="display: flex; align-items: center;">
+            <img src="figures/logo.svg" alt="" style="width: 40px;">
+        <h2 id="Heaven"><a href="index.html">TO HEAVEN</a></h2>
+        </div>
+
+        <nav >
+
+            <ul>
+    
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="destinations.html" >Destinations</a></li>
+                <li><a href="services.html" >Services</a></li>
+                <li><a href="réservations.html" >Réservations</a></li>
+                <li><a href="promotions.html" >Promotions</a></li>
+                <li><a href="apropos.html" >A propos</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    
+        <div id="hamburger-icon" onclick="toggleMobileMenu(this)">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+            <ul class="mobile-menu">
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="destinations.html" >Destinations</a></li>
+                <li><a href="services.html" >Services</a></li>
+                <li><a href="réservations.html" >Réservations</a></li>
+                <li><a href="promotions.html" >Promotions</a></li>
+                <li><a href="apropos.html" >A propos</a></li>
+                <li><a href="contact.html">Contact</a></li>
+              
+            </ul>
+          </div>
+    </header>
+
+      <div class="display">
+        
+        </div>
+
+      <header>
+        <h1>Les Promotions du Moment</h1>
+    </header>
+
+      <section >
+
+        
+            <div>
+                <h2>Spécial Maroc : Marrakech</h2>
+            <section>
+                <img src="figures/maroc.jpg" alt="Marrakech, Maroc">
+            <p>Découvrez les souks animés et l'architecture historique de Marrakech à des prix réduits !</p>
+            
+               <div>
+                <p>Prix par nuit pour une personne :70€</p>
+                <p>Prix par nuit pour deux personnes :130€</p>
+                <p>All Inclusive (par nuit, par personne) :110€</p>
+                <p>Demi-pension (par nuit, par personne) :90€</p>
+               </div>
+            </section>
+            
+            <section class="search-bar" id="prix">
+                <p>Promotion : Réduction de 20% pour les séjours de plus de 3 nuits.</p>
+                    <table>
+                        <tr>
+                        <td><label for="nights_maroc">nuits:</label></td>
+                        <td><input type="number" id="nights_maroc" value="1" min="1" ></td>
+                        </tr>
+                        <td><label for="persons_maroc">personnes:</label></td>
+                        <td><input type="number" id="persons_maroc" value="1" min="1" ></td>
+                        <tr><td colspan="2" style="text-align: center;"><button type="submit">Réserver</button></td></tr>    
+                    </table>
+            </div>
+         
+    
+        
+           <div>
+            <h2>Voyage de Rêve : Maldives</h2>
+            <section>
+                <img src="figures/maldive.jpg" alt="Maldives">
+    
+            <p>Plages de sable blanc, eaux cristallines et bungalows sur l'eau à des tarifs exceptionnels !</p>
+            
+                <div>
+                    <p>Prix par nuit pour une personne :120€</p>
+                <p>Prix par nuit pour deux personnes :200€</p>
+                <p>All Inclusive (par nuit, par personne) :180€</p>
+                <p>Demi-pension (par nuit, par personne) :150€</p>
+                </div>
+            
+            </section>
+    
+            <section class="search-bar" id="prix">
+                <p>Promotion : Réduction de 25% pour les séjours de plus de 3 nuits.</p>
+            <table>
+                <tr>
+                <td><label for="nights_maldive">nuits:</label></td>
+                <td><input type="number" id="nights_maldive" value="1" min="1" ></td>
+                </tr>
+                <td><label for="persons_maldive">personnes:</label></td>
+                <td><input type="number" id="persons_maldive" value="1" min="1" ></td>
+                <tr><td colspan="2" style="text-align: center;"><button type="submit">Réserver</button></td></tr>    
+            </table>
+            </section>
+           </div>
+        </section>
+
+      </section>
+
+    <section>
+        <div>
+            <h2>Destination Exclusive : Dubai, Émirats Arabes Unis</h2>
+        <section>
+            <img src="figures/dubai.jpg" alt="Dubai, Émirats Arabes Unis">
+        <p>Découvrez le luxe et l'exotisme de Dubai à des prix exceptionnels ! Réservez maintenant pour une expérience inoubliable.</p>
+        
+            <div>
+            <p>Prix par nuit pour une personne :150€</p>
+            <p>Prix par nuit pour deux personnes :250€</p>
+            <p>All Inclusive (par nuit, par personne) :220€</p>
+            <p>Demi-pension (par nuit, par personne) :180€</p>
+            </div>
+        </section>
+        
+        <section class="search-bar" id="prix">
+            <p>Promotion : Réduction de 15% pour les séjours de plus de 3 nuits.</p>
+        <table>
+            <tr>
+            <td><label for="nights_dubai">nuits:</label></td>
+            <td><input type="number" id="nights_dubai" value="1" min="1" ></td>
+            </tr>
+            <td><label for="persons_dubai">personnes:</label></td>
+            <td><input type="number" id="persons_dubai" value="1" min="1" ></td>
+            <tr><td colspan="2" style="text-align: center;"><button type="submit">Réserver</button></td></tr>
+        </table>
+        </section>
+        </div>
+    </section>
+    
+<footer>
+    <p>Contactez-nous dès maintenant pour bénéficier de nos promotions et commencer à planifier votre prochain voyage 
+        sur mesure! Pour plus d'informations visitez <a href="contact.html">Contact</a></p>
+</footer>
+<script src="index.js"></script>
+</body>
+</html>

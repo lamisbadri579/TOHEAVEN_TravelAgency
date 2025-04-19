@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="figures/icon.svg" type="image/svg+xml">
+    <style>
+      li{
+        list-style: none;
+      }
+    </style>
+    
+    <title>Contact</title>
+    
+</head>
+<body id="haut">
+    
+  <header id="header">
+    <div style="display: flex; align-items: center;">
+      <img src="figures/logo.svg" alt="" style="width: 40px;">
+  <h2 id="Heaven"><a href="index.html">TO HEAVEN</a></h2>
+  </div>
+
+    <nav >
+
+        <ul>
+
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="destinations.html" >Destinations</a></li>
+            <li><a href="services.html" >Services</a></li>
+            <li><a href="réservations.html" >Réservations</a></li>
+            <li><a href="promotions.html" >Promotions</a></li>
+            <li><a href="apropos.html" >A propos</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <div id="hamburger-icon" onclick="toggleMobileMenu(this)">
+        <div class="bar1"></div>
+        <div class="bar2"></div>
+        <div class="bar3"></div>
+        <ul class="mobile-menu">
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="destinations.html" >Destinations</a></li>
+            <li><a href="services.html" >Services</a></li>
+            <li><a href="réservations.html" >Réservations</a></li>
+            <li><a href="promotions.html" >Promotions</a></li>
+            <li><a href="apropos.html" >A propos</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          
+        </ul>
+      </div>
+</header>
+      <div class="display">
+        
+        </div>
+      <header>
+        <h1>Nous Contacter</h1>
+    </header>
+
+    <main>
+        <section>
+            <div>
+              <h2>Informations de Contact</h2>
+            <p style="margin-bottom: 20px;">N'hésitez pas à nous contacter pour toute question ou demande de renseignements. Notre équipe est là pour vous aider à planifier votre prochain voyage de rêve !</p>
+            <p>
+              <li style="margin-bottom: 10px;"><strong>Adresse :</strong> 123 Rue des Voyages, 3061 Tunisie, Sfax</li>
+              <li style="margin-bottom: 10px;"><strong>Téléphone :</strong> +216 23 456 789</li>
+              <li style="margin-bottom: 10px;"><strong>Email :</strong> toheaven@gmail.com</li>
+              <li style="margin-bottom: 10px;">
+                  <span class="social">
+                      <strong>Instagram :</strong>
+                      <a href="https://www.instagram.com/" target="_blank">
+                          <img src="figures/iconInstagram.jpg" class="social-icon" alt="Instagram">
+                      </a>
+                      <a href="https://www.instagram.com/" target="_blank" class="social-link" style="color: rgb(204, 38, 195);">ToHeavenVoyage</a>
+                  </span>
+              </li>
+              <li style="margin-bottom: 10px;">
+                  <span class="social">
+                      <strong>Facebook :</strong>
+                      <a href="https://www.facebook.com/" target="_blank">
+                          <img src="figures/iconfacebook.jpg" class="social-icon" alt="Facebook">
+                      </a>
+                      <a href="https://www.facebook.com/" target="_blank" class="social-link" style="color: rgb(25, 25, 182);">To Heaven Voyage</a>
+                  </span>
+              </li>
+              
+            </p>
+            </div>
+        </section>
+
+        <section class="search-bar">
+            <div>
+              <table>
+                <caption><h2>Formulaire de Contact</h2></caption>
+              <form action="envoyer_message.php" method="post">
+                  <tr>
+                  <td><label for="nom">Nom :</label></td>
+                  <td><input type="text" id="nom" name="nom" required></td>
+                  </tr>
+  
+                  <tr>
+                    <td><label for="email">Email :</label></td>
+                  <td><input type="email" id="email" name="email" required></td>
+                  </tr>
+  
+                  <tr>
+                    <td><label for="message" >Message :</label></td>
+                  <td><textarea id="message" name="message" rows="4" required></textarea></td>
+                  </tr>
+  
+                  <tr  id="sub"><td colspan="2"><button type="submit">Envoyer</button></td></tr>
+              </form>
+              </table>
+            </div>
+        </section>
+    </main>
+    
+    <footer>
+        <p>Nous sommes impatients de vous aider à réaliser vos rêves de voyage ! Contactez-nous dès aujourd'hui.</p>
+    </footer>
+    <script src="index.js"></script>
+
+</body>
+</html>
